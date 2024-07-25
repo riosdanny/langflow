@@ -3,6 +3,7 @@ services:
   - type: web
     name: langflow
     runtime: docker
+    plan: standard
     dockerfilePath: ./docker/render.Dockerfile
     repo: https://github.com/langflow-ai/langflow
     branch: main
